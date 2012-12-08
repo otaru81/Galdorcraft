@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaldorCraft" >
+
+    <EditText
+        android:id="@+id/txtLife"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imgBtnDecLife"
+        android:layout_alignTop="@+id/txtWood"
+        android:ems="10"
+        android:text="40"
+        android:textSize="36sp" android:password="false" android:phoneNumber="false"
+        android:layout_alignBottom="@+id/txtWood"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnDecLife"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/txtLife"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/life_dec" />
+
+    <ImageButton
+        android:id="@+id/imgBtnIncLife"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/life_inc" android:layout_alignLeft="@+id/txtLife"
+        android:layout_below="@+id/imgBtnResetLife"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnResetLife"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/label_life" android:focusable="false"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnResetWood"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/imgBtnResetLife"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgBtnResetLife"
+        android:src="@drawable/gc_wood" android:longClickable="false"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnIncWood"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@+id/imgBtnResetWood"
+        android:layout_below="@+id/imgBtnResetWood"
+        android:src="@drawable/life_inc" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDecWood"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@+id/imgBtnIncWood"
+        android:layout_below="@+id/imgBtnIncWood"
+        android:src="@drawable/life_dec" />
+
+    <EditText
+        android:id="@+id/txtWood"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:text="0"
+        android:textSize="36sp" android:layout_toRightOf="@+id/imgBtnDecLife"
+        android:layout_below="@+id/imgBtnDecWood"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnResetOre"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/imgBtnResetWood"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgBtnResetWood"
+        android:src="@drawable/gc_ore" android:focusableInTouchMode="false"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnIncOre"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/imgBtnDecWood"
+        android:layout_alignLeft="@+id/imgBtnResetOre"
+        android:src="@drawable/life_inc" />
+
+    <ImageButton
+        android:id="@+id/imgBtnDecOre"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignLeft="@+id/imgBtnIncOre"
+        android:layout_below="@+id/imgBtnIncOre"
+        android:src="@drawable/life_dec" />
+
+    <EditText
+        android:id="@+id/txtOre"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:text="0"
+        android:textSize="36sp" android:layout_toRightOf="@+id/imgBtnResetWood" android:layout_below="@+id/imgBtnDecWood"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnResetRare"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgBtnResetOre"
+        android:src="@drawable/gc_rare" android:focusableInTouchMode="false"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnIncRare"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/life_inc"
+        android:layout_toRightOf="@+id/imgBtnResetOre" android:layout_alignTop="@+id/imgBtnIncLife"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnDecRare"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/life_dec"
+        android:layout_toRightOf="@+id/imgBtnResetOre" android:layout_below="@+id/imgBtnIncLife"/>
+
+    <EditText
+        android:id="@+id/txtRare"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:text="0"
+        android:textSize="36sp" android:layout_toRightOf="@+id/imgBtnResetOre" android:layout_below="@+id/imgBtnDecWood"/>
+    <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/imgBtnResetGame"
+            android:src="@drawable/turn_counter"
+            android:layout_toRightOf="@+id/imgBtnResetRare" android:layout_alignTop="@+id/imgBtnResetLife"
+            android:longClickable="false"/>
+    <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/imgBtnIncTurn"
+            android:layout_toRightOf="@+id/imgBtnResetRare" android:layout_alignTop="@+id/imgBtnIncLife"
+            android:layout_alignRight="@+id/imgBtnResetGame" android:src="@drawable/life_inc"/>
+    <EditText
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="0"
+            android:id="@+id/txtTurnCount" android:layout_toRightOf="@+id/imgBtnResetRare"
+            android:layout_alignTop="@+id/txtLife" android:textSize="36sp"/>
+    <Chronometer
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/chronoTurnTime"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/imgBtnResetRare" android:layout_alignTop="@+id/imgBtnDecLife"
+            android:textStyle="bold"
+            android:paddingLeft="12dp" android:paddingTop="25dp"/>
+    <Chronometer
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/chronoGameTime"
+            android:layout_toRightOf="@+id/imgBtnResetRare" android:layout_alignTop="@+id/imgBtnDecLife"
+            android:paddingLeft="12dp" android:paddingTop="10dp" android:textSize="15dp" android:textStyle="bold"/>
+
+</RelativeLayout>
