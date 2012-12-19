@@ -4,5 +4,7 @@
     <string name="app_name">Galdorcraft Counter</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="increment_fracture_rare">Increment Fracture Specific Rare Counter</string>
+    <string name="increment_normal_rare">Increment Normal Rare</string>
 
 </resources>
