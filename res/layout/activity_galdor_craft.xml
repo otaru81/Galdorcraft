@@ -32,7 +32,8 @@
         <ImageButton
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:id="@+id/imageButton4" android:layout_column="4"/>
+                android:id="@+id/imageButton4"
+                android:layout_column="4"/>
         <ImageButton
                 android:layout_width="64dp"
                 android:layout_height="64dp"
