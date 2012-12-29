@@ -18,6 +18,7 @@ public class GaldorCraft extends Activity {
 	public String curwood = "";
 	public String curore = "";
 	public String currare = "";
+    public String curfracrare = "";
     public String curturn = "";
 
     public Chronometer chronoTT;
@@ -121,6 +122,22 @@ public class GaldorCraft extends Activity {
 		});
 			
 		}
+
+    public void ResetFracRareonBtnClick() {
+
+        ImageButton btnResetFracRare = (ImageButton) findViewById(R.id.imgBtnResetFracRare);
+
+        btnResetFracRare.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v)
+            {
+                EditText FracRarebox = (EditText)findViewById(R.id.txtFracRare);
+                FracRarebox.setText("0");
+            }
+        });
+
+    }
 
     public void IncTurnonBtnClick() {
 
@@ -313,60 +330,114 @@ public class GaldorCraft extends Activity {
 			    
 				}
 
-	public void IncRareonBtnClick() {
-					
-					ImageButton btnIncRare = (ImageButton) findViewById(R.id.imgBtnIncRare);
-				    
-				    btnIncRare.setOnClickListener(new View.OnClickListener() {
-				    
-				    	@Override
-				    	public void onClick(View v)
-				    	{
-                            EditText Turnbox = (EditText)findViewById(R.id.txtTurnCount);
-                            curturn = Turnbox.getText().toString();
-                            count = Integer.parseInt(curturn);
-                            if (count == 0) return;
+    public void IncRareonBtnClick() {
 
-                            EditText Rarebox = (EditText)findViewById(R.id.txtRare);
-				    		currare = Rarebox.getText().toString();
-				            count = Integer.parseInt(currare);
-				            count++;
-				            
-				            if (count >= 10) {
-				            	count = 10;
-				            }
-				            
-				            Rarebox.setText("" + count);
-				    	}
+        ImageButton btnIncRare = (ImageButton) findViewById(R.id.imgBtnIncRare);
 
-				    });
-				    
-					}
-					
-	public void DecRareonBtnClick() {
-						
-				    ImageButton btnDecRare = (ImageButton) findViewById(R.id.imgBtnDecRare);
-				    
-				    btnDecRare.setOnClickListener(new View.OnClickListener() {
-				    	
-				    	@Override
-				    	public void onClick(View v)
-				    	{
-				    		EditText Rarebox = (EditText)findViewById(R.id.txtRare);
-				    		currare = Rarebox.getText().toString();
-				    		count = Integer.parseInt(currare);
-				    		count--;
-				    		
-				    		if (count <= 0) {
-				            	count = 0;
-				            }
-				    		
-				    		Rarebox.setText("" + count);
-				    	}
-				    });
-				    
-					}
-				
+        btnIncRare.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v)
+            {
+                EditText Turnbox = (EditText)findViewById(R.id.txtTurnCount);
+                curturn = Turnbox.getText().toString();
+                count = Integer.parseInt(curturn);
+                if (count == 0) return;
+
+                EditText Rarebox = (EditText)findViewById(R.id.txtRare);
+                currare = Rarebox.getText().toString();
+                count = Integer.parseInt(currare);
+                count++;
+
+                if (count >= 10) {
+                    count = 10;
+                }
+
+                Rarebox.setText("" + count);
+            }
+
+        });
+
+    }
+
+    public void DecRareonBtnClick() {
+
+        ImageButton btnDecRare = (ImageButton) findViewById(R.id.imgBtnDecRare);
+
+        btnDecRare.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v)
+            {
+                EditText Rarebox = (EditText)findViewById(R.id.txtRare);
+                currare = Rarebox.getText().toString();
+                count = Integer.parseInt(currare);
+                count--;
+
+                if (count <= 0) {
+                    count = 0;
+                }
+
+                Rarebox.setText("" + count);
+            }
+        });
+
+    }
+
+    public void IncFracRareonBtnClick() {
+
+        ImageButton btnIncFracRare = (ImageButton) findViewById(R.id.imgBtnIncFracRare);
+
+        btnIncFracRare.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v)
+            {
+                EditText Turnbox = (EditText)findViewById(R.id.txtTurnCount);
+                curturn = Turnbox.getText().toString();
+                count = Integer.parseInt(curturn);
+                if (count == 0) return;
+
+                EditText FracRarebox = (EditText)findViewById(R.id.txtFracRare);
+                curfracrare = FracRarebox.getText().toString();
+                count = Integer.parseInt(curfracrare);
+                count++;
+
+                if (count >= 10) {
+                    count = 10;
+                }
+
+                FracRarebox.setText("" + count);
+            }
+
+        });
+
+    }
+
+    public void DecFracRareonBtnClick() {
+
+        ImageButton btnDecFracRare = (ImageButton) findViewById(R.id.imgBtnDecFracRare);
+
+        btnDecFracRare.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v)
+            {
+                EditText FracRarebox = (EditText)findViewById(R.id.txtFracRare);
+                curfracrare = FracRarebox.getText().toString();
+                count = Integer.parseInt(curfracrare);
+                count--;
+
+                if (count <= 0) {
+                    count = 0;
+                }
+
+                FracRarebox.setText("" + count);
+            }
+        });
+
+    }
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -377,6 +448,7 @@ public class GaldorCraft extends Activity {
 		ResetWoodonBtnClick();
 		ResetOreonBtnClick();
 		ResetRareonBtnClick();
+        ResetFracRareonBtnClick();
         IncTurnonBtnClick();
 		IncLifeonBtnClick();
 		DecLifeonBtnClick();
@@ -384,8 +456,10 @@ public class GaldorCraft extends Activity {
 		DecWoodonBtnClick();
 		IncOreonBtnClick();
 		DecOreonBtnClick();
-		IncRareonBtnClick();
-		DecRareonBtnClick();
+        IncRareonBtnClick();
+        DecRareonBtnClick();
+        IncFracRareonBtnClick();
+        DecFracRareonBtnClick();
 	}
 	
 	

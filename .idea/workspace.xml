@@ -29,16 +29,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ae7af82-8174-40f8-989b-a0593bbd738e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="D:\Galdorcraft\GaldorcraftCounter\res\drawable-hdpi\gc_sky_rare.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Galdorcraft\GaldorcraftCounter\res\drawable-ldpi\gc_sky_rare.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Galdorcraft\GaldorcraftCounter\res\drawable-mdpi\gc_sky_rare.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Galdorcraft\GaldorcraftCounter\res\drawable-xhdpi\gc_sky_rare.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/galdorcraft/counter/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/galdorcraft/counter/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java" afterPath="$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/galdorcraft/counter/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/galdorcraft/counter/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/galdorcraft/counter/R.java" afterPath="$PROJECT_DIR$/gen/com/galdorcraft/counter/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_galdor_craft.xml" afterPath="$PROJECT_DIR$/res/layout/activity_galdor_craft.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GaldorcraftCounter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1354683881066" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1355885198992" ignored="false" />
-    <file path="/activity_galdor_craft.xml" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1355884002543" ignored="false" />
-    <file path="/GaldorCraft.java" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1354971648856" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1356819205611" ignored="false" />
+    <file path="/activity_galdor_craft.xml" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1356822466675" ignored="false" />
+    <file path="/GaldorCraft.java" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1356823582147" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1354973703965" ignored="false" />
+    <file path="/a.xml" changelist="6ae7af82-8174-40f8-989b-a0593bbd738e" time="1356818476169" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +103,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -103,26 +112,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_galdor_craft.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_galdor_craft.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_galdor_craft.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="16" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.7016509">
-              <folding>
-                <element signature="tag#TableRow#1;tag#TableLayout#0" expanded="false" />
-                <element signature="tag#TableRow#2;tag#TableLayout#0" expanded="false" />
-                <element signature="tag#TableRow#3;tag#TableLayout#0" expanded="false" />
-              </folding>
+          <provider editor-type-id="text-editor">
+            <state line="82" column="57" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GaldorCraft.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GaldorCraft.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="390" column="0" selection-start="10920" selection-end="10920" vertical-scroll-proportion="0.0">
+            <state line="192" column="16" selection-start="5526" selection-end="5526" vertical-scroll-proportion="0.5303293">
               <folding />
             </state>
           </provider>
@@ -136,8 +141,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\Jon\workspace\jon" />
-    <option name="KEY_ALIAS" value="jon" />
+    <option name="KEY_STORE_PATH" value="D:\Galdorcraft\galdorcraft" />
+    <option name="KEY_ALIAS" value="GaldorCraft" />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -166,8 +171,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_galdor_craft.xml" />
+        <option value="$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java" />
       </list>
     </option>
   </component>
@@ -197,7 +202,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers PackagesPane="true" />
       <showModules />
@@ -208,20 +213,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaldorcraftCounter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -230,13 +222,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="ExportedApkPath" value="C:\Users\Jon\workspace\GaldorcraftCounter\GaldorcraftCounter.apk" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="ExportedApkPath" value="D:\Galdorcraft\GaldorCraftCounter.apk" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedModule" value="GaldorcraftCounter" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -520,11 +512,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19797225" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31430095" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19743863" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31323373" sideWeight="0.67074525" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6703663" order="3" side_tool="false" content_ui="tabs" />
@@ -541,12 +533,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946581" sideWeight="0.6703663" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49359658" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.49359658" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -615,17 +607,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/activity_galdor_craft.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="46" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#TableRow#1;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#2;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#3;tag#TableLayout#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java">
@@ -638,11 +626,7 @@
     <entry file="file://$PROJECT_DIR$/res/layout/activity_galdor_craft.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#TableRow#1;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#2;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#3;tag#TableLayout#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,24 +687,20 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-24.725664" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="0" selection-start="10920" selection-end="10920" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_galdor_craft.xml">
+      <provider editor-type-id="text-editor">
+        <state line="82" column="57" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_galdor_craft.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/galdorcraft/counter/GaldorCraft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.7016509">
-          <folding>
-            <element signature="tag#TableRow#1;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#2;tag#TableLayout#0" expanded="false" />
-            <element signature="tag#TableRow#3;tag#TableLayout#0" expanded="false" />
-          </folding>
+        <state line="192" column="16" selection-start="5526" selection-end="5526" vertical-scroll-proportion="0.5303293">
+          <folding />
         </state>
       </provider>
     </entry>

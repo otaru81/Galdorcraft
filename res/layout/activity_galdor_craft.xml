@@ -32,8 +32,9 @@
         <ImageButton
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:id="@+id/imageButton4"
-                android:layout_column="4"/>
+                android:id="@+id/imgBtnResetFracRare"
+                android:layout_column="4"
+            android:src="@drawable/gc_inferno_rare" />
         <ImageButton
                 android:layout_width="64dp"
                 android:layout_height="64dp"
@@ -70,10 +71,12 @@
                 android:src="@drawable/life_inc"
                 android:layout_column="3"/>
         <ImageButton
+                android:id="@+id/imgBtnIncFracRare"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:id="@+id/imageButton10" android:layout_column="4"
-                android:contentDescription="@string/increment_normal_rare"/>
+                android:layout_column="4"
+                android:contentDescription="@string/increment_fracture_rare"
+                android:src="@drawable/life_inc" />
         <ImageButton
                 android:layout_width="64dp"
                 android:layout_height="64dp"
@@ -110,10 +113,11 @@
                 android:src="@drawable/life_dec"
                 android:layout_column="3"/>
         <ImageButton
+                android:id="@+id/imgBtnDecFracRare"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:id="@+id/imageButton16"
-                android:layout_column="4"/>
+                android:layout_column="4"
+                android:src="@drawable/life_dec" />
         <RelativeLayout
                 android:layout_width="64dp"
                 android:layout_height="64dp"
